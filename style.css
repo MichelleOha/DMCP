@@ -1,0 +1,413 @@
+:root {
+  --primary1: white;
+  --primary2: #669BBC;
+  --primary3: #003049;
+  --primary4: #486d9a;
+  /* --neutral1: #cba4f3ff; */
+/* Keep in if I want to add more colours to my website
+  --neutral2: #fac29bff;
+  --neutral3: #f4c1d1ff;
+  --neutral4: #e27d60ff;
+  --neutral5: #1dbfd5ff; */
+  --font1: 50px;
+  --font2: 25px;
+  --font3: 16px;
+  --font4: 35px;
+  --font5: 40px;
+  --font6: 80px:
+}
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+p,
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--primary1);
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .resume {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    width: 25%;
+    background-color: var(--neutral1);
+    height: 40px;
+    font-size: 18px;
+    color: var(--primary2); */
+/* } */
+
+footer {
+    text-align: left;
+    color: var(--primary2);
+    margin-top: auto;
+    font-size: 10px;
+  }
+
+/* Michelle Web Developer */
+
+.title {
+  text-align: center;
+  font-size: var(--font1);
+  color: var(--primary2);
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: var(--font2);
+  color: var(--primary2);
+  margin-bottom: 20px;
+}
+
+/* menu */
+
+.menu-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    list-style-type: none;
+  }
+  
+  .menu-link {
+    color: var(--primary3);
+    text-decoration: none;
+    /* color: var(--primary1);
+    text-decoration: none; */
+  }
+  
+  .menu-link:hover {
+    color: var(--primary1);
+  }
+
+.menu {
+  background: var(--primary2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  height: 75px;
+}
+/* home */
+
+.statement {
+  text-align: center;
+  color: var(--primary4);
+  font-size: var(--font3);
+  margin-top: 35px;
+  margin-right: 20px;
+}
+
+/* sketch */
+
+/* .home-sketch-container {
+    height: 200px;
+    width: 100vw;
+    background-image: url("./beach.pdf"); 
+    background-position: center; 
+    background-repeat: no-repeat;    
+    background-size: cover;
+} */
+
+.fashion-sketch {
+    height: 200px;
+    width: 100vw;
+    background-image: url("./assets/jackdollkey.png"); 
+    background-position: center; 
+    background-repeat: no-repeat;    
+    background-size: cover;
+}
+
+ .my-life-in-tech {
+  display: block;
+  width: 90vw;
+  margin-top: 20px;
+  margin-bottom: 50px;
+} 
+
+.ha-article1 {
+    display: block;
+    max-width: 90vw;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  } 
+
+  .ha-article2 {
+    display: block;
+    max-width: 90vw;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  } 
+
+  .coder-academy-post {
+    display: block;
+    max-width: 100vw;
+    margin-top: 20px;
+    height: 48vw;
+  }
+
+/* headings and paragraphs */
+
+.page-name {
+  text-align: center;
+  font-size: 30px;
+  color: var(--primary2);
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+.description {
+  text-align: center;
+  color: var(--primary1);
+  font-size: var(--font3);
+  margin-top: 35px;
+  padding: 20px;
+}
+
+.qualifications {
+  text-align: center;
+  font-size: var(--font2);
+  color: var(--primary2);
+  margin-top: 35px;
+  margin-bottom: 0px;
+  padding: 20px;
+}
+
+/* about me */
+
+.beach {
+  height: 200px;
+  width: 100vw;
+  background-position: center; 
+  background-repeat: no-repeat;    
+  background-size: cover;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 50%; */
+}
+
+.experience {
+    font-size: var(--font3);
+    color: var(--primary1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* contact */
+
+  .form {
+    color: var(--primary1);
+    font-size: var(--font3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #message {
+      height: 100px;
+      width: 150%;
+  }
+
+  .submit {
+    background-color: var(--neutral1);
+  }
+
+.email {
+  color: var(--primary1);
+  font-size: var(--font3)
+}
+
+.phone-number {
+  color: var(--primary1);
+  font-size: var(--font3)
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* icons */
+
+.devicon-github-original { 
+  font-size: 50px;
+}
+
+.devicon-linkedin-plain{ 
+    font-size: 50px;
+}
+
+.devicon-github-original,
+.devicon-github-original:visited {
+  color: var(--primary2);
+}
+
+.devicon-linkedin-plain,
+.devicon-linkedin-plain:visited {
+  color: var(--primary2);
+}
+
+/* blog */
+
+.blog {
+  color: var(--primary1);
+  text-decoration: none;
+  color: var(--primary1);
+  text-decoration: none;
+}
+
+.blogs-list {
+    padding: 20px;
+    text-align: center;
+}
+
+.blog:hover {
+    color: var(--neutral1);
+}
+
+.blog-stories {
+    padding: 20px;
+    color: var(--primary1)
+}
+
+.links {
+    color: var(--primary2)
+}
+
+.links:visited {
+    color: var(--neutral1)
+}
+
+/* youtube video */
+
+.embed-youtube {
+    position: relative;
+    padding-bottom: 56.25%; /* - 16:9 aspect ratio (most common) */
+    /* padding-bottom: 62.5%; - 16:10 aspect ratio */
+    /* padding-bottom: 75%; - 4:3 aspect ratio */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.embed-youtube iframe,
+.embed-youtube object,
+.embed-youtube embed {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;
+    height: 85%;
+}
+
+/* Media Break Points */
+
+@media screen and (min-width: 768px) {
+    .home-sketch-container {
+        height: 500px;
+    }
+
+    .resume {
+        width: 20%;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .sub-title {
+        font-size: var(--font5)
+    }
+/* blog video */
+
+    .embed-youtube iframe,
+    .embed-youtube object,
+    .embed-youtube embed {
+        border: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 80%;
+    }
+
+    .me {
+      width: 30%;
+  }
+
+  .fashion-sketch {
+    height: 300px;
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+    .home-sketch-container {
+        height: 800px;
+    }
+
+    .fashion-sketch {
+        height: 440px;
+    }
+
+    .statement {
+        font-size: 25px;
+    }
+
+    .title {
+        font-size: 80px;
+    }
+
+    .sub-title {
+        font-size: var(--font4);
+    }
+
+    #fname {
+        width: 150%;
+    }
+
+    #email {
+        width: 150%;
+    }
+
+    #message {
+        width: 350%;
+    }
+}
