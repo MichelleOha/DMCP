@@ -1,20 +1,18 @@
 :root {
   --primary1: white;
-  --primary2: #669BBC;
-  --primary3: #003049;
+  --primary2: #a67c00; 
+  /* --primary2: #669BBC; */
+  --primary3: #000035;
   --primary4: #486d9a;
-  /* --neutral1: #cba4f3ff; */
-/* Keep in if I want to add more colours to my website
-  --neutral2: #fac29bff;
-  --neutral3: #f4c1d1ff;
-  --neutral4: #e27d60ff;
-  --neutral5: #1dbfd5ff; */
+  --primary5: black;
   --font1: 50px;
   --font2: 25px;
   --font3: 16px;
   --font4: 35px;
   --font5: 40px;
   --font6: 80px:
+  --font7: 22px;
+  /* --primary3: #003049; */
 }
 
 html,
@@ -32,7 +30,8 @@ li {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
+  text-align: center;
+  /* vertical-align: baseline; */
 }
 
 a,
@@ -48,44 +47,72 @@ body {
   flex-direction: column;
 }
 
-.about-me-info {
+/* .about-me-info {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-/* .resume {
-    display: block;
-    text-align: center;
-    margin-top: 50px;
-    width: 25%;
-    background-color: var(--neutral1);
-    height: 40px;
-    font-size: 18px;
-    color: var(--primary2); */
-/* } */
+} */
 
 footer {
     text-align: left;
     color: var(--primary2);
     margin-top: auto;
-    font-size: 10px;
+    font-size:  12px;
   }
 
-/* Michelle Web Developer */
 
 .title {
   text-align: center;
   font-size: var(--font1);
-  color: var(--primary2);
-  margin-top: 120px;
-  margin-bottom: 20px;
+  color: var(--primary3);
+  margin-top: 100px;
+  margin-bottom: 10px;
 }
 
 .sub-title {
+  /* text-align: center; */
+  font-size: var(--font2);
+  color: var(--primary2);
+  margin-bottom: 20px;
+}
+
+.page-title {
+  text-align: centre;
+  font-size: var(--font4);
+  color: var(--primary3);
+  margin-bottom: 0px;
+  margin-top: 100px;
+}
+
+.job-title {
+  text-align: centre;
+  font-size: var(--font2);
+  color: var(--primary3);
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+
+.qualifications {
+  text-align: center;
+  font-size: medium;
+  color: var(--primary3);
+  margin: 0px;
+}
+
+.paragraph {
+  /* text-align: var(--text-textAlign); */
+  font-size: var(--font2);
+  color: var(--primary4);
+  margin-bottom: 20px;
+}
+
+.contact {
   text-align: center;
   font-size: var(--font2);
   color: var(--primary2);
+  margin-top: 0px;
+  padding-top: 0px;
   margin-bottom: 20px;
 }
 
@@ -98,19 +125,19 @@ footer {
     list-style-type: none;
   }
   
-  .menu-link {
-    color: var(--primary3);
+.menu-link {
+    color: var(--primary1);
     text-decoration: none;
     /* color: var(--primary1);
     text-decoration: none; */
   }
   
-  .menu-link:hover {
+.menu-link:hover {
     color: var(--primary1);
   }
 
 .menu {
-  background: var(--primary2);
+  background: var(--primary3);
   position: fixed;
   top: 0;
   left: 0;
@@ -118,13 +145,28 @@ footer {
   z-index: 9;
   height: 75px;
 }
+
+.emergency {
+  color: var(--primary2);
+  text-decoration: none;
+}
+
+.emergency-links {
+  color: var(--primary3);
+  text-decoration: none;
+  
+}
+
+.emergency-links:hover {
+  color: var(--primary4);
+}
 /* home */
 
 .statement {
   text-align: center;
-  color: var(--primary4);
-  font-size: var(--font3);
-  margin-top: 35px;
+  color: var(--primary3);
+  font-size: var(--font2);
+  margin-top: 0px;
   margin-right: 20px;
 }
 
@@ -148,33 +190,6 @@ footer {
     background-size: cover;
 }
 
- .my-life-in-tech {
-  display: block;
-  width: 90vw;
-  margin-top: 20px;
-  margin-bottom: 50px;
-} 
-
-.ha-article1 {
-    display: block;
-    max-width: 90vw;
-    margin-top: 20px;
-    margin-bottom: 50px;
-  } 
-
-  .ha-article2 {
-    display: block;
-    max-width: 90vw;
-    margin-top: 20px;
-    margin-bottom: 50px;
-  } 
-
-  .coder-academy-post {
-    display: block;
-    max-width: 100vw;
-    margin-top: 20px;
-    height: 48vw;
-  }
 
 /* headings and paragraphs */
 
@@ -194,14 +209,7 @@ footer {
   padding: 20px;
 }
 
-.qualifications {
-  text-align: center;
-  font-size: var(--font2);
-  color: var(--primary2);
-  margin-top: 35px;
-  margin-bottom: 0px;
-  padding: 20px;
-}
+
 
 /* about me */
 
@@ -211,6 +219,7 @@ footer {
   background-position: center; 
   background-repeat: no-repeat;    
   background-size: cover;
+  /* opacity: 0.5; */
   /* display: block;
   margin-left: auto;
   margin-right: auto;
@@ -265,17 +274,8 @@ footer {
 
 /* icons */
 
-.devicon-github-original { 
-  font-size: 50px;
-}
-
 .devicon-linkedin-plain{ 
     font-size: 50px;
-}
-
-.devicon-github-original,
-.devicon-github-original:visited {
-  color: var(--primary2);
 }
 
 .devicon-linkedin-plain,
@@ -340,13 +340,10 @@ footer {
 /* Media Break Points */
 
 @media screen and (min-width: 768px) {
-    .home-sketch-container {
+    .beach {
         height: 500px;
     }
 
-    .resume {
-        width: 20%;
-    }
 
     .title {
         font-size: 50px;
@@ -379,7 +376,7 @@ footer {
 }
 
 @media screen and (min-width: 1200px) {
-    .home-sketch-container {
+    .beach {
         height: 800px;
     }
 
