@@ -21,6 +21,8 @@ div,
 h1,
 h2,
 h3,
+h4,
+h5,
 p,
 ol,
 ul,
@@ -43,8 +45,10 @@ body {
   background-color: var(--primary1);
   font-family: 'Roboto', sans-serif;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
+  font-weight: 300;
+  letter-spacing: .01em;
 }
 
 /* .about-me-info {
@@ -53,6 +57,10 @@ body {
     align-items: center;
 } */
 
+div {
+  display: block;
+}
+
 footer {
     text-align: left;
     color: var(--primary2);
@@ -60,6 +68,46 @@ footer {
     font-size:  12px;
   }
 
+  .wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 30px;
+  }
+
+  h4 {
+    margin: 2.2em 0 0.5em 0;
+   line-height: 1.3em;
+    font-size: .9em;
+    letter-spacing: .1em;
+    color:#000035;
+    text-transform: uppercase;
+
+}
+  /* .page-title:before {
+    content: '';
+    display: block;
+    bottom: -0.7em;
+    right: 0;
+    position: absolute;
+    width: 1000%;
+    border-bottom: solid 3px #000035;
+  } */
+
+  .section{
+    display: block;
+  }
+
+  .row .columns {
+    float: left;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+  }
 
 .title {
   text-align: center;
@@ -67,6 +115,9 @@ footer {
   color: var(--primary3);
   margin-top: 100px;
   margin-bottom: 10px;
+  letter-spacing: .1em;
+    color:#000035;
+    text-transform: uppercase;
 }
 
 .sub-title {
@@ -82,6 +133,9 @@ footer {
   color: var(--primary3);
   margin-bottom: 0px;
   margin-top: 100px;
+  letter-spacing: .1em;
+    color:#000035;
+    text-transform: uppercase;
 }
 
 .job-title {
@@ -90,6 +144,9 @@ footer {
   color: var(--primary3);
   margin-bottom: 50px;
   margin-top: 0px;
+  letter-spacing: .1em;
+    color:#000035;
+    text-transform: uppercase;
 }
 
 
@@ -97,7 +154,8 @@ footer {
   text-align: center;
   font-size: medium;
   color: var(--primary3);
-  margin: 0px;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 .paragraph {
@@ -181,14 +239,6 @@ footer {
     background-size: cover;
 } */
 
-.fashion-sketch {
-    height: 200px;
-    width: 100vw;
-    background-image: url("./assets/jackdollkey.png"); 
-    background-position: center; 
-    background-repeat: no-repeat;    
-    background-size: cover;
-}
 
 
 /* headings and paragraphs */
@@ -209,7 +259,12 @@ footer {
   padding: 20px;
 }
 
-
+.row {
+  max-width: 1040px;
+  margin-right: auto;
+  margin-left: auto;
+  clear: left;
+}
 
 /* about me */
 
@@ -316,26 +371,6 @@ footer {
 
 /* youtube video */
 
-.embed-youtube {
-    position: relative;
-    padding-bottom: 56.25%; /* - 16:9 aspect ratio (most common) */
-    /* padding-bottom: 62.5%; - 16:10 aspect ratio */
-    /* padding-bottom: 75%; - 4:3 aspect ratio */
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
-
-.embed-youtube iframe,
-.embed-youtube object,
-.embed-youtube embed {
-    border: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 85%;
-    height: 85%;
-}
 
 /* Media Break Points */
 
@@ -343,7 +378,24 @@ footer {
     .beach {
         height: 500px;
     }
+ 
+.wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 70px;
+}
 
+.row .col-lg-6 {
+    width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.row .col-lg-12 {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 
     .title {
         font-size: 50px;
@@ -352,28 +404,7 @@ footer {
     .sub-title {
         font-size: var(--font5)
     }
-/* blog video */
-
-    .embed-youtube iframe,
-    .embed-youtube object,
-    .embed-youtube embed {
-        border: 0;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 80%;
-        height: 80%;
-    }
-
-    .me {
-      width: 30%;
   }
-
-  .fashion-sketch {
-    height: 300px;
-}
-
-}
 
 @media screen and (min-width: 1200px) {
     .beach {
