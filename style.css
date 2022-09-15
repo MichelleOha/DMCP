@@ -2,8 +2,8 @@
   --primary1: white;
   --primary2: #a67c00; 
   /* --primary2: #669BBC; */
-  --primary3: #000035;
-  --primary4: #486d9a;
+  --primary3: #44608D;
+  --primary4: #020202;
   --primary5: black;
   --font1: 50px;
   --font2: 25px;
@@ -42,8 +42,8 @@ a:visited {
 }
 
 body {
-  background-color: var(--primary1);
-  font-family: 'Roboto', sans-serif;
+  /* background-color: var(--primary1); */
+  font-family: 'Avenir', sans-serif;
   height: 100vh;
   /* display: flex; */
   /* flex-direction: column; */
@@ -137,10 +137,10 @@ p {
   text-align: center;
   font-size: var(--font1);
   color: var(--primary3);
-  margin-top: 100px;
+  margin-top: 170px;
   margin-bottom: 10px;
   letter-spacing: .1em;
-    color:#000035;
+    color:#44608D;
     text-transform: uppercase;
 }
 
