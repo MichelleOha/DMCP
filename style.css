@@ -49,6 +49,7 @@ body {
   /* flex-direction: column; */
   font-weight: 300;
   letter-spacing: .01em;
+
 }
 
 /* .about-me-info {
@@ -104,7 +105,20 @@ p {
     width: 1000%;
     border-bottom: solid 3px #000035;
   } */
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
   .section{
     display: block;
   }
@@ -148,12 +162,23 @@ p {
     text-transform: uppercase;
 }
 
+.page-titles {
+  text-align: centre;
+  font-size: var(--font4);
+  color: var(--primary3);
+  margin-bottom: 0px;
+  margin-top: 100px;
+  letter-spacing: .1em;
+    color: var(--primary2);
+    text-transform: uppercase;
+}
+
 .job-title {
   text-align: centre;
   font-size: var(--font2);
   color: var(--primary3);
   margin-bottom: 50px;
-  margin-top: 0px;
+  margin-top: 9px;
   letter-spacing: .1em;
     color:#000035;
     text-transform: uppercase;
@@ -162,7 +187,7 @@ p {
 
 .qualifications {
   text-align: center;
-  font-size: medium;
+  font-size: var(--font3);
   color: var(--primary3);
   margin-top: 5px;
   margin-bottom: 0px;
@@ -171,14 +196,26 @@ p {
 .paragraph {
   /* text-align: var(--text-textAlign); */
   font-size: var(--font2);
-  color: var(--primary4);
   margin-bottom: 20px;
+  text-align: center;
+  color: var(--primary3);
+  margin-top: 0px;
+  margin-right: 20px;
+}
+
+.paragraphE {
+  font-size: var(--font2);
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--primary3);
+  margin-top: 0px;
+  margin-right: 20px;
 }
 
 .contact {
   text-align: center;
   font-size: var(--font2);
-  color: var(--primary2);
+  color: var(--primary3);
   margin-top: 0px;
   padding-top: 0px;
   margin-bottom: 20px;
@@ -217,6 +254,7 @@ p {
 .emergency {
   color: var(--primary2);
   text-decoration: none;
+  font-size: var(--font2);
 }
 
 .emergency-links {
@@ -278,19 +316,27 @@ p {
 
 /* about me */
 
-.beach {
+.swirl {
   height: 200px;
   width: 100vw;
   background-position: center; 
   background-repeat: no-repeat;    
   background-size: cover;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 87%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .4);
+}
   /* opacity: 0.5; */
   /* display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
   width: 50%; */
-}
+
 
 .experience {
     font-size: var(--font3);
@@ -303,25 +349,25 @@ p {
 
   /* contact */
 
-  .form {
+  /* .form {
     color: var(--primary1);
     font-size: var(--font3);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-  }
+  } */
 
-  #message {
+  /* #message {
       height: 100px;
       width: 150%;
-  }
+  } */
 
-  .submit {
+  /* .submit {
     background-color: var(--neutral1);
-  }
+  } */
 
-.email {
+/* .email {
   color: var(--primary1);
   font-size: var(--font3)
 }
@@ -335,9 +381,9 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
-/* icons */
+/* icons
 
 .devicon-linkedin-plain{ 
     font-size: 50px;
@@ -346,30 +392,16 @@ p {
 .devicon-linkedin-plain,
 .devicon-linkedin-plain:visited {
   color: var(--primary2);
-}
+} */
 
 /* blog */
-
+/* 
 .blog {
   color: var(--primary1);
   text-decoration: none;
   color: var(--primary1);
   text-decoration: none;
-}
-
-.blogs-list {
-    padding: 20px;
-    text-align: center;
-}
-
-.blog:hover {
-    color: var(--neutral1);
-}
-
-.blog-stories {
-    padding: 20px;
-    color: var(--primary1)
-}
+} */
 
 .links {
     color: var(--primary2)
@@ -379,14 +411,36 @@ p {
     color: var(--neutral1)
 }
 
-/* youtube video */
+.phone {
+   color: var(--primary2)
+   text-decoration none;
+   background: var(--primary2);
+   font-color: var(--primary1);
+   color: var(--primary1);
+   border-style: none;
+   padding: 11px 11px;
+  }
+
+.phone:visited {
+  color: var(--primary2) 
+}
+
+button {
+  background: var(--primary2);
+  font-color: var(--primary1);
+  color: var(--primary1);
+  border-style: none;
+  padding: 11px 11px;
+  border-radius:5px;
+  font-size: var(--primary2);
+}
 
 
 /* Media Break Points */
 
 @media screen and (min-width: 768px) {
-    .beach {
-        height: 500px;
+    .swirl {
+        height: 87%;
     }
  
 .wrapper {
@@ -417,7 +471,7 @@ p {
   }
 
 @media screen and (min-width: 1200px) {
-    .beach {
+    .swirl {
         height: 800px;
     }
 
