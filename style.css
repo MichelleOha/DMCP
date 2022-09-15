@@ -158,18 +158,16 @@ p {
   margin-bottom: 0px;
   margin-top: 100px;
   letter-spacing: .1em;
-    color:#000035;
     text-transform: uppercase;
 }
 
 .page-titles {
   text-align: centre;
   font-size: var(--font4);
-  color: var(--primary3);
+  color: var(--primary2);
   margin-bottom: 0px;
   margin-top: 100px;
   letter-spacing: .1em;
-    color: var(--primary2);
     text-transform: uppercase;
 }
 
@@ -180,7 +178,6 @@ p {
   margin-bottom: 50px;
   margin-top: 9px;
   letter-spacing: .1em;
-    color:#000035;
     text-transform: uppercase;
 }
 
@@ -195,7 +192,7 @@ p {
 
 .paragraph {
   /* text-align: var(--text-textAlign); */
-  font-size: var(--font2);
+  font-size: var(--font3);
   margin-bottom: 20px;
   text-align: center;
   color: var(--primary3);
@@ -204,7 +201,7 @@ p {
 }
 
 .paragraphE {
-  font-size: var(--font2);
+  font-size: var(--font3);
   margin-bottom: 20px;
   text-align: center;
   color: var(--primary3);
@@ -219,6 +216,7 @@ p {
   margin-top: 0px;
   padding-top: 0px;
   margin-bottom: 20px;
+  
 }
 
 /* menu */
@@ -254,7 +252,7 @@ p {
 .emergency {
   color: var(--primary2);
   text-decoration: none;
-  font-size: var(--font2);
+  font-size: var(--font3);
 }
 
 .emergency-links {
@@ -321,14 +319,14 @@ p {
   width: 100vw;
   background-position: center; 
   background-repeat: no-repeat;    
-  background-size: cover;
+  /* background-size: cover;
   position: absolute;
   display: block;
   width: 100%;
   height: 87%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, .4);
+  background: rgba(0, 0, 0, .4); */
 }
   /* opacity: 0.5; */
   /* display: block;
@@ -412,10 +410,10 @@ p {
 }
 
 .phone {
-   color: var(--primary2)
-   text-decoration none;
-   background: var(--primary2);
-   font-color: var(--primary1);
+   color: var(--primary2);
+   text-decoration: none;
+   background: var(--primary3);
+   /* font-color: var(--primary1); */
    color: var(--primary1);
    border-style: none;
    padding: 11px 11px;
@@ -426,13 +424,13 @@ p {
 }
 
 button {
-  background: var(--primary2);
-  font-color: var(--primary1);
+  background: var(--primary3);
+  font: var(--primary1);
   color: var(--primary1);
   border-style: none;
   padding: 11px 11px;
   border-radius:5px;
-  font-size: var(--primary2);
+  font-size: var(--primary3);
 }
 
 
