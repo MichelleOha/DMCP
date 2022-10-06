@@ -94,6 +94,7 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     margin: 0.9em 0;
+    letter-spacing: .1em;
     /* text-align:left; */
 }
   /* .page-title:before {
@@ -156,9 +157,9 @@ p {
   font-size: var(--font4);
   color: var(--primary3);
   margin-bottom: 0px;
-  margin-top: 100px;
+  margin-top: 5px;
   letter-spacing: .1em;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .page-titles {
@@ -168,18 +169,17 @@ p {
   margin-bottom: 0px;
   margin-top: 100px;
   letter-spacing: .1em;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .job-title {
   text-align: centre;
   font-size: var(--font2);
-  font-family: 'Copprplgoth BT';
   color: var(--primary3);
   margin-bottom: 50px;
   margin-top: 9px;
   letter-spacing: .1em;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 
@@ -199,6 +199,7 @@ p {
   color: var(--primary3);
   margin-top: 0px;
   margin-right: 20px;
+  letter-spacing: .1em;
 }
 
 .paragraphE {
@@ -208,6 +209,7 @@ p {
   color: var(--primary3);
   margin-top: 0px;
   margin-right: 20px;
+  letter-spacing: .1em;
 }
 
 .contact {
@@ -217,6 +219,7 @@ p {
   margin-top: 0px;
   padding-top: 0px;
   margin-bottom: 20px;
+  letter-spacing: .1em;
   
 }
 
@@ -238,6 +241,7 @@ p {
   
 .menu-link:hover {
     color: var(--primary1);
+    font-size: 22px;
   }
 
 .menu {
@@ -254,11 +258,13 @@ p {
   color: var(--primary2);
   text-decoration: none;
   font-size: var(--font3);
+  list-style: none;
 }
 
 .emergency-links {
   color: var(--primary3);
   text-decoration: none;
+
   
 }
 
@@ -326,15 +332,8 @@ p {
   height: 87%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, .4); */
+  background: rgba(0, 0, 0, .4);
 }
-  /* opacity: 0.5; */
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  width: 50%; */
-
 
 .experience {
     font-size: var(--font3);
@@ -345,61 +344,6 @@ p {
     text-align: center;
   }
 
-  /* contact */
-
-  /* .form {
-    color: var(--primary1);
-    font-size: var(--font3);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  } */
-
-  /* #message {
-      height: 100px;
-      width: 150%;
-  } */
-
-  /* .submit {
-    background-color: var(--neutral1);
-  } */
-
-/* .email {
-  color: var(--primary1);
-  font-size: var(--font3)
-}
-
-.phone-number {
-  color: var(--primary1);
-  font-size: var(--font3)
-}
-
-.contact-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
-/* icons
-
-.devicon-linkedin-plain{ 
-    font-size: 50px;
-}
-
-.devicon-linkedin-plain,
-.devicon-linkedin-plain:visited {
-  color: var(--primary2);
-} */
-
-/* blog */
-/* 
-.blog {
-  color: var(--primary1);
-  text-decoration: none;
-  color: var(--primary1);
-  text-decoration: none;
-} */
 
 .links {
     color: var(--primary2)
@@ -423,7 +367,7 @@ p {
 }
 
 button {
-  background: var(--primary2);
+  background: var(--primary3);
   color: var(--primary1);
   border-style: none;
   padding: 11px 11px;
@@ -481,7 +425,7 @@ button {
     }
 
     .title {
-        font-size: 80px;
+        font-size: 50px;
     }
 
     .sub-title {
