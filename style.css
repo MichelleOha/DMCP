@@ -36,7 +36,7 @@ li {
   /* vertical-align: baseline; */
 }
 
-a,
+
 a:visited {
   text-decoration: none;
 }
@@ -51,12 +51,6 @@ body {
   letter-spacing: .01em;
 
 }
-
-/* .about-me-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
 
 div {
   display: block;
@@ -95,17 +89,10 @@ p {
     margin-inline-end: 0px;
     margin: 0.9em 0;
     letter-spacing: .1em;
+    line-height: 1.7em;
     /* text-align:left; */
 }
-  /* .page-title:before {
-    content: '';
-    display: block;
-    bottom: -0.7em;
-    right: 0;
-    position: absolute;
-    width: 1000%;
-    border-bottom: solid 3px #000035;
-  } */
+
 /* Container holding the image and the text */
 .container {
   position: relative;
@@ -124,15 +111,24 @@ p {
     display: block;
   }
 
-  .row .columns {
+  .row {
+    max-width: 1040px;
+    margin-right: auto;
+    margin-left: auto;
+    clear: left;
+  }
+
+  .columns {
     float: left;
-    width: 100%;
-    -webkit-box-sizing: border-box;
+    width: 50%;
+    /* -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
-    -o-box-sizing: border-box;
+    -o-box-sizing: border-box; */
     box-sizing: border-box;
-  }
+  } 
+
+
 
 .title {
   text-align: center;
@@ -210,6 +206,7 @@ p {
   margin-top: 0px;
   margin-right: 20px;
   letter-spacing: .1em;
+  line-height: 1.7em;
 }
 
 .contact {
@@ -220,6 +217,8 @@ p {
   padding-top: 0px;
   margin-bottom: 20px;
   letter-spacing: .1em;
+  line-height: 1.7em;
+  
   
 }
 
@@ -235,8 +234,7 @@ p {
 .menu-link {
     color: var(--primary1);
     text-decoration: none;
-    /* color: var(--primary1);
-    text-decoration: none; */
+
   }
   
 .menu-link:hover {
@@ -259,6 +257,8 @@ p {
   text-decoration: none;
   font-size: var(--font3);
   list-style: none;
+  line-height: 1.5em;
+  letter-spacing: .1em;
 }
 
 .emergency-links {
@@ -279,6 +279,7 @@ p {
   font-size: var(--font2);
   margin-top: 0px;
   margin-right: 20px;
+  letter-spacing: .1em;
 }
 
 /* sketch */
@@ -312,12 +313,7 @@ p {
   padding: 20px;
 }
 
-.row {
-  max-width: 1040px;
-  margin-right: auto;
-  margin-left: auto;
-  clear: left;
-}
+
 
 /* about me */
 
@@ -376,6 +372,23 @@ button {
   cursor:pointer;
 }
 
+.columns {
+  float: left;
+  /* width: 100%; */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 
 /* Media Break Points */
 
@@ -409,6 +422,12 @@ button {
     .sub-title {
         font-size: var(--font5)
     }
+  }
+
+  .col-lg-6 {
+    width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
 @media screen and (min-width: 1200px) {
