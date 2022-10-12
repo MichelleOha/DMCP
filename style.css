@@ -10,8 +10,9 @@
   --font3: 16px;
   --font4: 35px;
   --font5: 40px;
-  --font6: 80px:
-  --font7: 22px;
+  --font6: 80px;
+  --font7: 26px;
+
   /* --primary3: #003049; */
 }
 
@@ -111,23 +112,31 @@ p {
     display: block;
   }
 
-  .row {
+  /* display settings */
+  /* .row {
     max-width: 1040px;
     margin-right: auto;
     margin-left: auto;
     clear: left;
-  }
+  } */
 
-  .columns {
+  /* .columns {
     float: left;
     width: 50%;
-    /* -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -o-box-sizing: border-box; */
     box-sizing: border-box;
   } 
 
+  .column {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+  } 
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
 
 
 .title {
@@ -371,23 +380,23 @@ button {
   font-size: var(--primary2);
   cursor:pointer;
 }
-
+/* 
 .columns {
-  float: left;
+  float: left; */
   /* width: 100%; */
-  -webkit-box-sizing: border-box;
+  /* -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box;
   width: 50%;
-  }
+  } */
 
-  .row:after {
+  /* .row:after {
     content: "";
     display: table;
     clear: both;
-  }
+  } */
 
 
 /* Media Break Points */
@@ -420,7 +429,7 @@ button {
     }
 
     .sub-title {
-        font-size: var(--font5)
+        font-size: var(--font7)
     }
   }
 
@@ -435,9 +444,9 @@ button {
         height: 800px;
     }
 
-    .fashion-sketch {
+    /* .fashion-sketch {
         height: 440px;
-    }
+    } */
 
     .statement {
         font-size: 25px;
@@ -448,18 +457,44 @@ button {
     }
 
     .sub-title {
-        font-size: var(--font4);
+        font-size: var(--font7);
     }
 
     #fname {
         width: 150%;
     }
 
-    #email {
+    /* #email {
         width: 150%;
-    }
+    } */
 
     #message {
         width: 350%;
+    }
+
+    .columns {
+      float: left;
+      width: 50%;
+      /* -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      -o-box-sizing: border-box; */
+      box-sizing: border-box;
+    } 
+  
+    .column {
+      float: right;
+      width: 50%;
+      /* -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      -o-box-sizing: border-box; */
+      box-sizing: border-box;
+    } 
+  
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
     }
 }
