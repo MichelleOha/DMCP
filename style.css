@@ -72,6 +72,12 @@ footer {
     padding-bottom: 30px;
   }
 
+  .about.wrapper {
+    background-color: #a67c00;
+    opacity: 0.5;
+    
+  }
+
   h4 {
     margin: 2.2em 0 0.5em 0;
    line-height: 1.3em;
@@ -340,6 +346,20 @@ p {
   background: rgba(0, 0, 0, .4);
 }
 
+.about_image{
+  height: 200px;
+  width: 100vw;
+  background-position: center; 
+  background-repeat: no-repeat;    
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 87%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .4);
+}
+
 .experience {
     font-size: var(--font3);
     color: var(--primary1);
@@ -405,11 +425,15 @@ button {
     .swirl {
         height: 87%;
     }
+
+    .about_image{
+      height: 87%;
+    }
  
 .wrapper {
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 70px;
+    padding-bottom: 0px;
 }
 
 .row .col-lg-6 {
@@ -441,8 +465,14 @@ button {
 
 @media screen and (min-width: 1200px) {
     .swirl {
-        height: 800px;
+      height: 450px;
     }
+
+    .about_image{
+      height: 450px;
+      /* opacity: 0.5; */
+    }
+
 
     /* .fashion-sketch {
         height: 440px;
