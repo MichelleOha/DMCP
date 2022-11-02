@@ -5,6 +5,10 @@
   --primary3: #44608d;
   --primary4: #020202;
   --primary5: black;
+  --primary15: #c8d5ec;
+  --primary6: #e4f0fb;
+  --primary7: #d5b8a5;
+  --primary8: #b7b2bd;
   --font1: 50px;
   --font2: 19px;
   --font3: 16px;
@@ -291,17 +295,6 @@ p {
   letter-spacing: 0.1em;
 }
 
-/* sketch */
-
-/* .home-sketch-container {
-    height: 200px;
-    width: 100vw;
-    background-image: url("./beach.pdf"); 
-    background-position: center; 
-    background-repeat: no-repeat;    
-    background-size: cover;
-} */
-
 /* headings and paragraphs */
 
 .page-name {
@@ -339,6 +332,20 @@ p {
 .about_image{
   height: 200px;
   width: 100vw;
+  background-position: center; 
+  background-repeat: no-repeat;    
+  background-size: cover;
+  display: block;
+  width: 102%;
+  height: 87%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .4);
+}
+
+.rebate_image{
+  height: 100px;
+  width: 200vw;
   background-position: center; 
   background-repeat: no-repeat;    
   background-size: cover;
@@ -389,23 +396,6 @@ button {
   font-size: var(--primary2);
   cursor: pointer;
 }
-/* 
-.columns {
-  float: left; */
-/* width: 100%; */
-/* -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 50%;
-  } */
-
-/* .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  } */
 
 /* Media Break Points */
 
@@ -417,23 +407,16 @@ button {
   .about_image{
     height: 87%;
   }
+
+  .rebate_image{
+      height: 87%;
+    }
+  
  
   .wrapper {
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 0px;
-  }
-
-  .row .col-lg-6 {
-    width: 50%;
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-
-  .row .col-lg-12 {
-    width: 100%;
-    padding-right: 10px;
-    padding-left: 10px;
   }
 
   .title {
@@ -445,11 +428,6 @@ button {
   }
 }
 
-.col-lg-6 {
-  width: 50%;
-  padding-right: 10px;
-  padding-left: 10px;
-}
 
 @media screen and (min-width: 1200px) {
   .swirl {
@@ -457,8 +435,15 @@ button {
   }
 
   .about_image{
-    height: 450px;
+    height: 813px;
+    margin-top: 82px;
+  
     /* opacity: 0.5; */
+  }
+
+  .rebate_image{
+    height: 500px;
+    margin-top: 82px;
   }
 
   .statement {
