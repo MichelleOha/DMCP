@@ -80,15 +80,15 @@ footer {
   }
 
   #Approach.wrapper {
-    background-color: var(--primary3);
-    opacity: 65%;
+    background-color: var(--primary9);
+    /* opacity: 65%; */
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 0px;
   }
 
   .apppara {
-    color: var(--primary6);
+    color: var(--primary1);
   }
 
   .about.wrapper {
@@ -102,8 +102,7 @@ footer {
   }
 
   #Rebates.wrapper {
-    background-color: var(--primary3);
-    opacity: 65%;
+    background-color: var(--primary9);
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 0px;
@@ -115,10 +114,9 @@ footer {
 
   #support.wrapper {
     background-color: var(--primary9);
-    /* opacity: 65%; */
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
   }
   
   #support.page-titles {
@@ -388,7 +386,7 @@ p {
   background: rgba(0, 0, 0, .4);
 }
 
-.rebate_image{
+.support_image{
   height: 100px;
   width: 200vw;
   background-position: center; 
@@ -461,7 +459,7 @@ button {
     height: 87%;
   }
 
-  .rebate_image{
+  .support_image{
       height: 87%;
     }
   
@@ -469,7 +467,7 @@ button {
   .wrapper {
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
   }
 
   .title {
@@ -495,33 +493,49 @@ button {
   }
 
   #Approach.wrapper {
-    background-color: var(--primary3);
-    opacity: 65%;
+    background-color: var(--primary9);
+    /* opacity: 65%; */
     padding-left: 170px;
     padding-right: 170px;
     padding-bottom: 82px;
   }
 
-  .rebate_image{
+  .support_image{
     height: 500px;
     margin-top: 82px;
+    /* z-index: -1;
+    position:relative; */
+  }
+
+  #Rebates.wrapper {
+    background-color: var(--primary9);
+    /* opacity: 65%; */
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-bottom: 82px;
     z-index: -1;
     position:relative;
   }
 
-  #Rebates.wrapper {
-    background-color: var(--primary3);
-    opacity: 65%;
-    padding-left: 170px;
-    padding-right: 170px;
+  #support.wrapper {
+    background-color: var(--primary9);
+    /* opacity: 65%; */
+    padding-left: 40px;
+    padding-right: 65px;
     padding-bottom: 82px;
   }
 
-  #support.wrapper {
-    background-color: var(--primary3);
-    opacity: 65%;
-    padding-left: 40px;
-    padding-right: 65px;
+  #About.wrapper {
+    /* background-color: var(--primary9); */
+    /* opacity: 65%; */
+    padding-right: 40px;
+    padding-left: 65px;
+    padding-bottom: 82px;
+  }
+
+  #contact.wrapper {
+    padding-left: 170px;
+    padding-right: 170px;
     padding-bottom: 82px;
   }
 
@@ -557,6 +571,8 @@ button {
       -ms-box-sizing: border-box;
       -o-box-sizing: border-box; */
     box-sizing: border-box;
+    z-index: 1;
+    position: relative;
   }
 
   .column {
