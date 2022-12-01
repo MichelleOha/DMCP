@@ -2,7 +2,7 @@
   --primary1: white;
   --primary2: #a67c00;
   /* --primary2: #669BBC; */
-  --primary3: #44608d;
+  --primary3: "red";
   --primary4: #020202;
   --primary5: black;
   --primary15: #c8d5ec;
@@ -67,71 +67,69 @@ footer {
   font-size: 12px;
 }
 
-  .wrapper {
-    padding-left: 20px;
-    padding-right: 20px;
-    clear: both;
-    overflow: hidden;
-    padding-bottom: 30px;
-  }
+.wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
 
-  #app.page-titles {
-    color: var(--primary1);
-  }
+#app.page-titles {
+  color: var(--primary1);
+}
 
-  #Approach.wrapper {
-    background-color: var(--primary9);
-    /* opacity: 65%; */
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 0px;
-  }
+#Approach.wrapper {
+  background-color: var(--primary9);
+  /* opacity: 65%; */
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 0px;
+}
 
-  .apppara {
-    color: var(--primary1);
-  }
+.apppara {
+  color: var(--primary1);
+}
 
-  .about.wrapper {
-    background-color: #a67c00;
-    opacity: 0.5;
-    
-  }
+.about.wrapper {
+  background-color: #a67c00;
+  opacity: 0.5;
+}
 
-  #Reb.page-titles {
-    color: var(--primary1);
-  }
+#Reb.page-titles {
+  color: var(--primary1);
+}
 
-  #Rebates.wrapper {
-    background-color: var(--primary9);
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 0px;
-  }
+#Rebates.wrapper {
+  background-color: var(--primary9);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 0px;
+}
 
-  .rebpara {
-    color: var(--primary1);
-  }
+.rebpara {
+  color: var(--primary1);
+}
 
-  #support.wrapper {
-    background-color: var(--primary9);
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 30px;
-  }
-  
-  #support.page-titles {
-    color: var(--primary1);
- }
+#support.wrapper {
+  background-color: var(--primary9);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
 
-  h4 {
-    margin: 2.2em 0 0.5em 0;
-   line-height: 1.3em;
-    font-size: .9em;
-    letter-spacing: .1em;
-    color:#000035;
-    text-transform: uppercase;
-  }
+#support.page-titles {
+  color: var(--primary1);
+}
 
+h4 {
+  margin: 2.2em 0 0.5em 0;
+  line-height: 1.3em;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+  color: #000035;
+  text-transform: uppercase;
+}
 
 p {
   display: block;
@@ -372,32 +370,32 @@ p {
   background: rgba(0, 0, 0, 0.4);
 }
 
-.about_image{
+.about_image {
   height: 200px;
   width: 100vw;
-  background-position: center; 
-  background-repeat: no-repeat;    
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   display: block;
   width: 102%;
   height: 87%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, .4);
+  background: rgba(0, 0, 0, 0.4);
 }
 
-.support_image{
+.support_image {
   height: 100px;
   width: 200vw;
-  background-position: center; 
-  background-repeat: no-repeat;    
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   display: block;
   width: 100%;
   height: 87%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, .4);
+  background: rgba(0, 0, 0, 0.4);
   opacity: 100%;
   /* z-index: -1;
   position:relative; */
@@ -446,7 +444,6 @@ button {
 /* Media Break Points */
 
 @media screen and (min-width: 768px) {
-
   .title {
     font-size: var(--font1);
   }
@@ -455,15 +452,14 @@ button {
     height: 87%;
   }
 
-  .about_image{
+  .about_image {
     height: 87%;
   }
 
-  .support_image{
-      height: 87%;
-    }
-  
- 
+  .support_image {
+    height: 87%;
+  }
+
   .wrapper {
     padding-left: 40px;
     padding-right: 40px;
@@ -479,16 +475,15 @@ button {
   }
 }
 
-
 @media screen and (min-width: 1200px) {
   .swirl {
     height: 450px;
   }
 
-  .about_image{
+  .about_image {
     height: 813px;
     margin-top: 82px;
-  
+
     /* opacity: 0.5; */
   }
 
@@ -500,7 +495,7 @@ button {
     padding-bottom: 82px;
   }
 
-  .support_image{
+  .support_image {
     height: 500px;
     margin-top: 82px;
     /* z-index: -1;
@@ -514,7 +509,7 @@ button {
     padding-right: 170px;
     padding-bottom: 82px;
     z-index: -1;
-    position:relative;
+    position: relative;
   }
 
   #support.wrapper {
