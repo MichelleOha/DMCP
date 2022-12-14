@@ -379,7 +379,7 @@ p {
   background-repeat: no-repeat;    
   background-size: cover;
   display: block;
-  width: 102%;
+  width: 100%;
   height: 87%;
   top: 0;
   left: 0;
@@ -387,8 +387,6 @@ p {
 }
 
 .support_image{
-  height: 100px;
-  width: 200vw;
   background-position: center; 
   background-repeat: no-repeat;    
   background-size: cover;
@@ -483,6 +481,10 @@ button {
 @media screen and (min-width: 1200px) {
   .swirl {
     height: 450px;
+  }
+
+  .title {
+  margin-top: 15%;
   }
 
   .about_image{
