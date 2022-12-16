@@ -68,11 +68,11 @@ footer {
 }
 
   .wrapper {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
     clear: both;
     overflow: hidden;
-    padding-bottom: 30px;
+    padding-bottom: 10%;
   }
 
   #app.page-titles {
@@ -103,9 +103,9 @@ footer {
 
   #Rebates.wrapper {
     background-color: var(--primary9);
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
   }
 
   .rebpara {
@@ -193,7 +193,7 @@ p {
   text-align: center;
   font-size: var(--font5);
   color: var(--primary3);
-  margin-top: 170px;
+  margin-top: 35%;
   margin-bottom: 10px;
   letter-spacing: 0.1em;
   color: #44608d;
@@ -252,7 +252,7 @@ p {
   text-align: center;
   color: var(--primary3);
   margin-top: 0px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   letter-spacing: 0.1em;
 }
 
@@ -317,6 +317,7 @@ p {
   list-style: none;
   line-height: 1.5em;
   letter-spacing: 0.1em;
+  padding-bottom: 10%;
 }
 
 .emergency-links {
@@ -359,8 +360,6 @@ p {
 /* about me */
 
 .swirl {
-  height: 200px;
-  width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -373,8 +372,6 @@ p {
 }
 
 .about_image{
-  height: 200px;
-  width: 100vw;
   background-position: center; 
   background-repeat: no-repeat;    
   background-size: cover;
@@ -480,7 +477,8 @@ button {
 
 @media screen and (min-width: 1200px) {
   .swirl {
-    height: 450px;
+    /* height: 450px; */
+    height: 150%;
   }
 
   .title {
