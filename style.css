@@ -481,6 +481,10 @@ button {
     height: 150%;
   }
 
+  .title {
+  margin-top: 15%;
+  }
+
   .about_image{
     height: 813px;
     margin-top: 82px;
