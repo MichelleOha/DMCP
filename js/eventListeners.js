@@ -5,12 +5,10 @@ const {
 
 
 hamburger.addEventListener("click", (e) => {
-    console.log("clicked")
     hamburger.style.display = "none";
-    openNav()
+    openNav();
 });
 
 closeButton.addEventListener("click", () => {
-    hamburger.style.display = "block";
-    closeNav()
+    closeNav();
 })
