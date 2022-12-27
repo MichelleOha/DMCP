@@ -7,6 +7,7 @@
     <title>VANTAGE CLINICAL PSYCHOLOGY</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Macondo&family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap"
       rel="stylesheet"
@@ -15,6 +16,15 @@
   </head>
 
   <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn">&times;</a>
+      <a href="index.html">HOME</a>
+      <a href="#Approach">APPROACH</a>
+      <a href="#About">ABOUT</a>
+      <a href="#Rebates">REBATES</a>
+      <a href="#Urgent_Support">URGENT SUPPORT</a>
+      <a href="#Contact">CONTACT</a>
+    </div>
     <header>
       <nav class="menu">
         <ul class="menu-links">
@@ -40,6 +50,7 @@
             <a class="menu-link" href="#Contact" data-sectionlink="section5">CONTACT</a>
           </li>
         </ul>
+        <div class="hamburger-container"><span id="hamburger-wrapper"><i class="fa fa-bars hamburger-icon"></i></span></div>
       </nav>
     </header>
 
@@ -273,5 +284,8 @@
     <footer>
       &#169;Copyright 2022 Vantage Clinical Psychology
     </footer>
+    <script src="js/functions.js"></script>
+    <script src="js/elements.js"></script>
+    <script src="js/eventListeners.js"></script>
   </body>
 </html>
