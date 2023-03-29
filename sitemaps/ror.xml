@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://www.vantageclinicalpsychology.com.au/</title>
+  <link>http://www.vantageclinicalpsychology.com.au/</link>
+
+<item>
+     <link>https://www.vantageclinicalpsychology.com.au/</link>
+     <title>VANTAGE CLINICAL PSYCHOLOGY</title>
+     <description>VANTAGE CLINICAL PSYCHOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.vantageclinicalpsychology.com.au/index.html</link>
+     <title>VANTAGE CLINICAL PSYCHOLOGY</title>
+     <description>VANTAGE CLINICAL PSYCHOLOGY</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
