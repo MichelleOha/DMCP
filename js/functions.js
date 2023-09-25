@@ -2,7 +2,7 @@
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
 }
- 
+
 // this removes the width and shows the hamburger (displays the hamburger menu again)
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
