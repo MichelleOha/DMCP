@@ -79,6 +79,14 @@ footer {
   color: var(--primary1);
 }
 
+#About.wrapper {
+  background: var(--primary9);
+  /* opacity: 65%; */
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 0px;
+}
+
 .Approach.wrapper {
   background-color: var(--primary9);
   /* opacity: 65%; */
