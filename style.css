@@ -79,7 +79,7 @@ footer {
   color: var(--primary1);
 }
 
-#Approach.wrapper {
+.Approach.wrapper {
   background-color: var(--primary9);
   /* opacity: 65%; */
   padding-left: 40px;
@@ -87,23 +87,28 @@ footer {
   padding-bottom: 0px;
 }
 
-.apppara {
+.aboutpara {
   color: var(--primary1);
+  padding-right: 40px;
 }
 
-.about.wrapper {
+.apppara {
+  color: var(--primary3);
+}
+
+/* .About.wrapper {
   background-color: #a67c00;
   opacity: 0.5;
-}
+} */
 
 .treatment {
-  color: var(--primary1);
+  color: var(--primary3);
   list-style: none;
   font-weight: bold;
 }
 
 .issues {
-  color: var(--primary1);
+  color: var(--primary3);
   list-style: none;
   font-weight: bold;
 }
@@ -155,6 +160,13 @@ p {
   /* text-align:left; */
 }
 
+.quote {
+  margin-right: 20px;
+  font-style: italic;
+  font-weight: 700;
+  color: var(--primary1);
+}
+
 /* Container holding the image and the text */
 .container {
   position: relative;
@@ -172,32 +184,6 @@ p {
 .section {
   display: block;
 }
-
-/* display settings */
-/* .row {
-    max-width: 1040px;
-    margin-right: auto;
-    margin-left: auto;
-    clear: left;
-  } */
-
-/* .columns {
-    float: left;
-    width: 50%;
-    box-sizing: border-box;
-  } 
-
-  .column {
-    float: right;
-    width: 50%;
-    box-sizing: border-box;
-  } 
-
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  } */
 
 h1 {
   text-align: center;
@@ -220,7 +206,7 @@ h1 {
 .page-title {
   text-align: centre;
   font-size: var(--font4);
-  color: var(--primary3);
+  color: var(--primary1);
   margin-bottom: 0px;
   margin-top: 5px;
   letter-spacing: 0.1em;
@@ -250,7 +236,7 @@ h1 {
 .qualifications {
   text-align: center;
   font-size: var(--font3);
-  color: var(--primary3);
+  color: var(--primary1);
   margin-top: 5px;
   margin-bottom: 0px;
 }
@@ -262,7 +248,6 @@ h1 {
   text-align: center;
   color: var(--primary3);
   margin-top: 0px;
-  margin-right: 20px;
   letter-spacing: 0.1em;
 }
 
@@ -560,15 +545,14 @@ button {
   }
 
   .about_image {
-    height: 813px;
+    height: 600px;
     margin-top: 82px;
 
     /* opacity: 0.5; */
   }
 
-  #Approach.wrapper {
+  .About.wrapper {
     background-color: var(--primary9);
-    /* opacity: 65%; */
     padding-left: 170px;
     padding-right: 170px;
     padding-bottom: 82px;
@@ -599,9 +583,8 @@ button {
     padding-bottom: 82px;
   }
 
-  #About.wrapper {
-    /* background-color: var(--primary9); */
-    /* opacity: 65%; */
+  #Approach.wrapper {
+    background-color: var(--primary1);
     padding-right: 40px;
     padding-left: 65px;
     padding-bottom: 82px;
