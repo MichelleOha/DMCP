@@ -97,7 +97,6 @@ footer {
 
 .aboutpara {
   color: var(--primary1);
-  padding-right: 40px;
 }
 
 .apppara {
@@ -549,14 +548,18 @@ button {
   }
 
   .title {
-    margin-top: 15%;
+    margin-top: 10%;
+    font-size: var(--font1);
   }
 
   .about_image {
     height: 600px;
     margin-top: 82px;
-
     /* opacity: 0.5; */
+  }
+
+  .aboutpara {
+    padding: 0 40px;
   }
 
   .About.wrapper {
@@ -594,7 +597,7 @@ button {
   #Approach.wrapper {
     background-color: var(--primary1);
     padding-right: 40px;
-    padding-left: 65px;
+    padding-left: 40px;
     padding-bottom: 82px;
   }
 
@@ -606,10 +609,6 @@ button {
 
   .statement {
     font-size: 25px;
-  }
-
-  .title {
-    font-size: var(--font1);
   }
 
   .sub-title {
