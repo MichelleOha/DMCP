@@ -534,10 +534,12 @@ button {
 
   .title {
     font-size: 50px;
+    text-transform: uppercase;
   }
 
   .sub-title {
     font-size: var(--font7);
+    text-transform: uppercase;
   }
 }
 
