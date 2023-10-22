@@ -427,7 +427,7 @@ h1 {
 }
 
 .profile_image {
-  margin-top: 100px;
+  /* margin-top: 100px; */
   width: 60%;
   height: 87%;
   border: 17px solid var(--primary6);
@@ -559,6 +559,9 @@ button {
 }
 
 @media screen and (min-width: 1200px) {
+  .profile_image {
+    margin-top: 100px;
+  }
   .swirl {
     /* height: 450px; */
     height: 150%;
