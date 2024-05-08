@@ -506,6 +506,10 @@ button {
   cursor: pointer;
 }
 
+.map {
+  margin-top: 125px;
+}
+
 /* Media Break Points */
 
 @media screen and (max-height: 450px) {
@@ -520,6 +524,7 @@ button {
 @media screen and (min-width: 768px) {
   .title {
     font-size: var(--font1);
+    margin-top: 150px;
   }
 
   .swirl {
