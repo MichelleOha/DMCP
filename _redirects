@@ -1,0 +1,4 @@
+# Fallback Redirect
+from = "https://vantageclinicalpsychology.com.au/*"
+to = "https://nextgenpsychology.com.au//"
+status = 301
